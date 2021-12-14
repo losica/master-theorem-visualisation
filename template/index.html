@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel='stylesheet' href='../style/style.css'>
+        <link rel='icon' href='../favicon/favicon.png'>
+        <title>Master Theorem</title>
+    </head>
+
+    <body>
+        <div id='inputContainer'>
+            <div class='input'>
+                <span class="var">
+                    N<input type="text" id="N" size="5" value="64">
+                    a<input type="text" id="a" size="3" value="2">
+                    b<input type="text" id="b" size="3" value="2">
+                    c<input type="text" id="c" size="3" value="1">
+                </span>
+                <span id="formula"></span>
+                <span class="btns">
+                    <button id="mode1" class ="active" value="1">Mode 1</button>
+                    <button id="mode2" class ="" value="2">Mode 2</button>
+                    <button id="mode3" class ="" value="3">Mode 3</button>
+                </span>
+            </div>
+        </div>
+        <svg></svg>
+        <script src='http://d3js.org/d3.v5.min.js'></script>
+        <script src='https://d3js.org/d3-scale-chromatic.v1.min.js'></script>
+        <script type="module" src='../src/app.js'></script>
+    </body>
+</html>
